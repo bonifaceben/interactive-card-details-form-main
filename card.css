@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+body{
+    font-family: "Space Grotesk", sans-serif;
+    background-color: black;
+}
+.container{
+    background-color: white;
+    width: 60%;
+    height: 90vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 30% 80%;
+    margin-top: 30px;
+}
+.item1{
+    background-image: url(images/bg-main-desktop.png);
+}
+.card{
+    background-image: url(images/bg-card-front.png);
+    width: 300px;
+    height: 30%;
+    border-radius: 15px;
+    margin-top: 50px;
+    margin-left: 50px;
+    box-shadow: 10px 10px 10px 0.1px rgba(10, 6, 6, 0.174);
+    padding-top: 2px;
+}
+.card2{
+    background-image: url(images/bg-card-back.png);
+    width: 300px;
+    height: 30%;
+    border-radius: 15px;
+    margin-left: 120px;
+    margin-top: 30px;
+    box-shadow: 10px 10px 10px 0.1px rgba(10, 6, 6, 0.174);
+}
+.circle{
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-top: 20px;
+    /* display: flex; */
+        
+}
+
+.secondcircle{
+    width: 20px;
+    height: 20px;
+    background-color: none;
+    border: solid 0.4px white;
+    border-radius: 50%;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.cardname{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 30px;
+    color: white;
+    font-size: 12px;
+}
+
+.item1 h4{
+    color: white;
+    margin-left: 30px;
+    letter-spacing: 3px;
+    
+}
+
+
+.item2{
+    margin-left: 30%;
+    margin-top: 20%;
+    
+    
+}
+
+.item2 button:hover{
+    transform: translatey(5%);
+}
+
+
+.item2 input{
+    padding: 8px;
+    border-radius: 5px;
+    border: solid 0.4px hsl(249, 99%, 64%) to hsl(278, 94%, 30%);
+    
+}
+.item2 label{
+    color: grey;
+    
+    
+}
+
+.expire{
+    display: flex;
+    margin-top: 10px;
+    /* width: 40%; */
+    gap: 5px;
+}
+.item2 button{
+    
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    width: 55%;
+    border: none;
+    background-color: hsl(278, 68%, 11%);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.mm{
+    width: 10%;
+}
+.yy{
+    width: 10%;
+}
+.eg{
+    width: 17%;
+}
+.cadholder{
+    width: 50%;
+    
+}
+
+.card2 p{
+    float: right;
+    margin-top: 37%;
+    margin-right: 10px;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 5px;
+}
+
